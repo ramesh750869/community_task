@@ -2,8 +2,8 @@ import { FunctionComponent } from "react";
 
 const HomePage: FunctionComponent = () => {
   return (
-    <div className="justify-center items-center ">
-      <div className="relative bg-white w-[2803px] h-[2803px] overflow-hidden text-left text-3xl text-ecm-color-palette font-open-sans">
+    <div className="flex flex-col items-center justify-center bg-white text-center text-ecm-color-palette font-open-sans">
+      <div className="w-full max-w-screen-lg p-4">
         <div className="absolute top-[900px] left-[807px] w-[487px] h-[74px]" />
         <div className="absolute top-[899.99px] left-[1293px] w-0 h-[74.03px]" />
         <img
